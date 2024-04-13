@@ -91,7 +91,7 @@ int main() {
 
     mode = 4;
 
-    std::ifstream lyricInput("yuuhizaka.txt", std::ios::in);
+    std::ifstream lyricInput("senbonzakura.txt", std::ios::in);
     std::ofstream lyricOutput("output.txt", std::ios::out);
 
     for (std::string line; std::getline(lyricInput, line, '\n'); ) {
