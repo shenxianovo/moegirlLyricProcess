@@ -1,10 +1,16 @@
 #include <iostream>
 #include <fstream>
+#include <set>
+
+
+std::set<int> hierachySet; // 被迫开个全局变量
 
 void lineFormation(const std::string& line) {
-    int hierachy = 0;
-    int right = line.find("<");
     std::ofstream outputFile("../temp/formatedHTML.txt", std::ios::out);
+
+    int hierachy = 0;
+
+    int right = line.find("<");
 
     while (right < line.size() && right != std::string::npos) {
         std::string content;
@@ -16,7 +22,10 @@ void lineFormation(const std::string& line) {
             left = right;
             right = line.find("<", left + 1);
         }
-        outputFile << hierachy << " " << std::string(hierachy * 4, ' ') << content << "\n";
+        /* HTML 标签 */
+        // outputFile << hierachy << " "; // 层级
+        // outputFile << std::string(hierachy * 4, ' '); // 缩进
+        // outputFile << content << "\n"; // HTML标签
         if (content[0] != '/') {
             hierachy++;
             left = right;
@@ -24,7 +33,10 @@ void lineFormation(const std::string& line) {
         }
         content = line.substr(left + 1, right - left - 1);
         if (content != "") {
-            outputFile << hierachy << " " << std::string(hierachy * 4, ' ') << content << "\n";
+            hierachySet.insert(hierachy);
+            outputFile << hierachy << " "; // 层级
+            // outputFile << std::string(hierachy * 4, ' '); // 缩进
+            outputFile << content << "\n"; // 内容
         }
     }
 }
@@ -37,6 +49,8 @@ int main() {
     std::getline(inputFile, line, '\n');
 
     lineFormation(line);
+
+    std::cout << "层级数: " << hierachySet.size() << std::endl;
 
     return 0;
 }

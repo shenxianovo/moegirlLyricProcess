@@ -1,2216 +1,594 @@
-0 p
-1     small
-2         本段落中所使用的歌词，其著作权属于原著作权人，仅以介绍为目的引用。
-1     /small
-0 /p
-0 style data-mw-deduplicate="TemplateStyles:r5501990"
-1     .mw-parser-output .Lyrics-has-ruby .Lyrics-original,.mw-parser-output .Lyrics-has-ruby .Lyrics-translated{line-height:2.1}.mw-parser-output .Lyrics-no-ruby .Lyrics-original,.mw-parser-output .Lyrics-no-ruby .Lyrics-translated{vertical-align:top}.mw-parser-output .Lyrics .Lyrics-original,.mw-parser-output .Lyrics .Lyrics-translated{width:100%;display:inline-block;white-space:pre-wrap}@media all and (min-width:720px){.mw-parser-output .Lyrics{display:flow-root;min-width:480px}.mw-parser-output .Lyrics-has-translate .Lyrics-original,.mw-parser-output .Lyrics-has-translate .Lyrics-translated{width:49.85%}}
-0 /style
-0 div class="Lyrics Lyrics-has-ruby Lyrics-has-translate" style=""
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 この
-4                 ruby class="photrans"
-5                     rb
-6                         混沌
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         こんとん
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 とした
-4                 ruby class="photrans"
-5                     rb
-6                         令和
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         れいわ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 のインターネットを
-4                 ruby class="photrans"
-5                     rb
-6                         照
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         て
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 らす
-4                 ruby class="photrans"
-5                     rb
-6                         一筋
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ひとすじ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 の
-4                 ruby class="photrans"
-5                     rb
-6                         光
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ひかり
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 照亮这混沌的令和网络世界的一道光
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         電子
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         でんし
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 の
-4                 ruby class="photrans"
-5                     rb
-6                         海
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         うみ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 を
-4                 ruby class="photrans"
-5                     rb
-6                         漂
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ただよ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 うオタクに
-4                 ruby class="photrans"
-5                     rb
-6                         笑顔
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         えがお
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 を
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 为在电子海洋中飘零的阿宅们带来笑容
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         未来
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         みらい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 の
-4                 ruby class="photrans"
-5                     rb
-6                         平和
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         へいわ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 をお
-4                 ruby class="photrans"
-5                     rb
-6                         約束
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         やくそく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 　
-4                 ruby class="photrans"
-5                     rb
-6                         躁鬱
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         そううつ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 だけどまかせとけ
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 向你许诺未来的和平 躁动不安但放心交给我
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 インターネット・エンジェル　ただいま
-4                 ruby class="photrans"
-5                     rb
-6                         降臨
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         こうりん
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 INTERNET·ANGEL 现在降临
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         社会
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         しゃかい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 をやめろ　
-4                 ruby class="photrans"
-5                     rb
-6                         家族
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         かぞく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 をやめろ　
-4                 ruby class="photrans"
-5                     rb
-6                         人間
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         にんげん
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         関係
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         かんけい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 をやめろ
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 快点放弃社会 放弃亲人 放弃人际关系
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         今
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         いま
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 すぐ
-4                 ruby class="photrans"
-5                     rb
-6                         薄暗
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         うすぐら
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 い
-4                 ruby class="photrans"
-5                     rb
-6                         部屋
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         へや
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 で
-4                 ruby class="photrans"
-5                     rb
-6                         青白
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あおじろ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 いライトを
-4                 ruby class="photrans"
-5                     rb
-6                         浴
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 びろ
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 现在立刻在昏暗的房间里沐浴进苍白的显示器光中去
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         大丈夫
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         だいじょうぶ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                  こわかったこと 
-4                 ruby class="photrans"
-5                     rb
-6                         全部
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ぜんぶ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         上書
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         うわが
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 きするからね
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 没关系的 令你恐惧的一切我会全部帮你改写
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         現実
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         げんじつ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 よりも　Crazy for you
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 比现实更加 Crazy for you
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 おかしくなりそうなほど
-4                 ruby class="photrans"
-5                     rb
-6                         情報
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         じょうほう
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         過多
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         かた
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 のインターネット
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 在这直逼人发疯的 信息爆炸的 Internet
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         今
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         いま
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 たすけてあげるよ　ダーリンダーリン
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 现在就来帮助你哦 Darling Darling
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ウソはウソだと
-4                 ruby class="photrans"
-5                     rb
-6                         見
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         み
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         抜
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ぬ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 けるし　この
-4                 ruby class="photrans"
-5                     rb
-6                         愛
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 は
-4                 ruby class="photrans"
-5                     rb
-6                         暴走
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ぼうそう
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 しちゃうし
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 看破谎言实为谎言 这份爱将要暴走
-4                 sup id="cite_ref-1" class="reference"
-5                     a href="https://zh.moegirl.org.cn/INTERNET_OVERDOSE#cite_note-1"
-6                         [1]
-5                     /a
-4                 /sup
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         壊
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         こわ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 れてしまうけど
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 虽然会走向崩坏就是了
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         考
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         かんが
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 えなくていいんだよ
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 不用想那么多啦
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 もうすぐ
-4                 ruby class="photrans"
-5                     rb
-6                         楽
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         らく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 になるから
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 因为马上就会轻松起来了
-4                 sup id="cite_ref-2" class="reference"
-5                     a href="https://zh.moegirl.org.cn/INTERNET_OVERDOSE#cite_note-2"
-6                         [2]
-5                     /a
-4                 /sup
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         脳内
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         のうない
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 に
-4                 ruby class="photrans"
-5                     rb
-6                         乱反射
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         らんはんしゃ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 する Poison radio
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 于脑内乱反射个不停的 Poison radio
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         麻
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ま
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         薬
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         やく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 より
-4                 ruby class="photrans"
-5                     rb
-6                         甘
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あま
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 いよ
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 比麻醉品更加甘甜哦
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 いいね　よくないね　キミにとっては
-4                 ruby class="photrans"
-5                     rb
-6                         毒
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         どく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 だね
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 赞 踩 对你来说是毒药呢
-4                 sup id="cite_ref-3" class="reference"
-5                     a href="https://zh.moegirl.org.cn/INTERNET_OVERDOSE#cite_note-3"
-6                         [3]
-5                     /a
-4                 /sup
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 いいね　よくないね　それでも
-4                 ruby class="photrans"
-5                     rb
-6                         飲
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         の
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 むんだね
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 赞 踩 即便如此也会吞下呢
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 いいね　よくないね　
-4                 ruby class="photrans"
-5                     rb
-6                         二人
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ふたり
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 のヒミツだね
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 赞 踩 是属于两个人的秘密呢
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 わたしだけ
-4                 ruby class="photrans"
-5                     rb
-6                         見
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         み
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ててね
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 要只看着我一个人哦
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 まるで
-4                 ruby class="photrans"
-5                     rb
-6                         天使
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         てんし
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 のように
-4                 ruby class="photrans"
-5                     rb
-6                         微笑
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ほほえ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 む
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 宛如天使般微笑
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         強
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         つよ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 めの
-4                 ruby class="photrans"
-5                     rb
-6                         幻覚
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         げんかく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 　INTERNET GIRL
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 强烈的幻觉 INTERNET GIRL
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 そして
-4                 ruby class="photrans"
-5                     rb
-6                         悪魔
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あくま
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 みたいにささやく
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 而又如同恶魔般低语
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 アナタだけのデパス　NEEDY GIRL
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 你专属的精神药物 NEEDY GIRL
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         浅
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あさ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 い
-4                 ruby class="photrans"
-5                     rb
-6                         眠
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ねむ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 りと
-4                 ruby class="photrans"
-5                     rb
-6                         承認
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         しょうにん
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         欲求
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         よっきゅう
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 のオーバードーズ
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 浅眠与渴望被承认的摄入过量
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         脳天
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         のうてん
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         直撃
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ちょくげき
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 するわたしたちだけの
-4                 ruby class="photrans"
-5                     rb
-6                         宗教
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         しゅうきょう
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 とヒカリ
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 五雷轰顶的只属于我们的宗教与光芒
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         倫理
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         りんり
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 より
-4                 ruby class="photrans"
-5                     rb
-6                         激
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         はげ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 しく
-4                 ruby class="photrans"
-5                     rb
-6                         生
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         い
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 きた
-4                 ruby class="photrans"
-5                     rb
-6                         宇宙
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         うちゅう
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 すら
-4                 ruby class="photrans"
-5                     rb
-6                         浸食
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         しんしょく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 する
-4                 ruby class="photrans"
-5                     rb
-6                         恋
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         こい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 比伦理还要激烈地活过 连宇宙都侵吞殆尽的恋情
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         何度
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         なんど
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 も
-4                 ruby class="photrans"
-5                     rb
-6                         送
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         おく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 られる
-4                 ruby class="photrans"
-5                     rb
-6                         毒
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         どく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         電波
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         でんぱ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 を
-4                 ruby class="photrans"
-5                     rb
-6                         優
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         やさ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 しさだけで
-4                 ruby class="photrans"
-5                     rb
-6                         包
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         つつ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 んで
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 无数次发送给你的毒电波 要用十分的温柔去包裹它哦
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         逆
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         さか
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 さまのコンピューターと
-4                 ruby class="photrans"
-5                     rb
-6                         断片
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         だんぺん
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         的
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         てき
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 なカウンセリング
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 上下颠倒的电脑与碎片式的辅导
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 きらめく
-4                 ruby class="photrans"
-5                     rb
-6                         屋上
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         おくじょう
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 で
-4                 ruby class="photrans"
-5                     rb
-6                         奏
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         かな
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 でた
-4                 ruby class="photrans"
-5                     rb
-6                         夢見心地
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ゆめみごこち
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 の
-4                 ruby class="photrans"
-5                     rb
-6                         旋律
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         せんりつ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 在光辉闪耀的楼顶演奏过的 如梦似幻的旋律
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         夕暮
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ゆうぐ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 れ
-4                 ruby class="photrans"
-5                     rb
-6                         時
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         とき
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 にさよならの
-4                 ruby class="photrans"
-5                     rb
-6                         練習
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         れんしゅう
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 をして
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 于黄昏时分练习说再见吧
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         壊
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         こわ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 して
-4                 ruby class="photrans"
-5                     rb
-6                         愛
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 して
-4                 ruby class="photrans"
-5                     rb
-6                         許
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ゆる
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 して
-4                 ruby class="photrans"
-5                     rb
-6                         狂
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         くる
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 って
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 去破坏去爱去原谅去发狂
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         狂
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         くる
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 って
-4                 ruby class="photrans"
-5                     rb
-6                         狂
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         くる
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 って
-4                 ruby class="photrans"
-5                     rb
-6                         甘
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あま
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 く
-4                 ruby class="photrans"
-5                     rb
-6                         狂
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         くる
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 わせて
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 发狂吧发狂吧甜蜜地将我弄坏
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ゆらぎ
-4                 ruby class="photrans"
-5                     rb
-6                         始
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         はじ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 める
-4                 ruby class="photrans"
-5                     rb
-6                         世界
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         せかい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 　
-4                 ruby class="photrans"
-5                     rb
-6                         曖昧
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あいまい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 になる
-4                 ruby class="photrans"
-5                     rb
-6                         風景
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         ふうけい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 开始动摇的世界 变得暧昧的景色
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 アナタだけが
-4                 ruby class="photrans"
-5                     rb
-6                         映
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         うつ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 っているメモリー
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 只由你组成的回忆
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         神様
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         かみさま
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 なんていないよ
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 神什么的不存在哟
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 このふざけたインターネットは
-4                 ruby class="photrans"
-5                     rb
-6                         七色
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         なないろ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 のサイケデリック
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 这荒诞的网络世界是彩虹色的幻雾
-4                 sup id="cite_ref-4" class="reference"
-5                     a href="https://zh.moegirl.org.cn/INTERNET_OVERDOSE#cite_note-4"
-6                         [4]
-5                     /a
-4                 /sup
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 SNSという
-4                 ruby class="photrans"
-5                     rb
-6                         瓶詰
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         びんづめ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ruby class="photrans"
-5                     rb
-6                         地獄
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         じごく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 に
-4                 ruby class="photrans"
-5                     rb
-6                         救済
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         きゅうさい
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 を
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 给名为SNS的瓶装地狱以救赎
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         過去
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         かこ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 の
-4                 ruby class="photrans"
-5                     rb
-6                         歴史
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         れきし
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 は
-4                 ruby class="photrans"
-5                     rb
-6                         見
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         み
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 ないふり　アナタのためならすぐそばに
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 过去的历史装作不去回望 为了你的话随时随地立即到达你身边
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 インターネット・エンジェル　かわいく
-4                 ruby class="photrans"
-5                     rb
-6                         参上
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         さんじょう
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 INTERNET·ANGEL 可爱参上
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 まるで
-4                 ruby class="photrans"
-5                     rb
-6                         天使
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         てんし
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 のように
-4                 ruby class="photrans"
-5                     rb
-6                         抱
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         だ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 きつく
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 宛如天使般拥你入怀
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 ruby class="photrans"
-5                     rb
-6                         強
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         つよ
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 めの
-4                 ruby class="photrans"
-5                     rb
-6                         幻覚
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         げんかく
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 　INTERNET GIRL
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 强劲的幻觉 INTERNET GIRL
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 そして
-4                 ruby class="photrans"
-5                     rb
-6                         悪魔
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         あくま
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-4                 みたいにキスする
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 而又如同恶魔般予以亲吻
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 アナタだけの　
-4                 ruby class="photrans"
-5                     rb
-6                         2D GIRL
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         NEEDY GIRL
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 独属于你的 
-4                 ruby class="photrans"
-5                     rb
-6                         2D GIRL
-5                     /rb
-5                     rt style="font-size:0.75em"
-6                         span class="template-ruby-hidden"
-7                             （
-6                         /span
-6                         NEEDY GIRL
-6                         span class="template-ruby-hidden"
-7                             ）
-6                         /span
-5                     /rt
-4                 /ruby
-3             /span
-2         /div
-1     /div
-1     div class="Lyrics-line"
-2         div class="Lyrics-original" style="color:#fe1df7"
-3             span lang="ja"
-4                 （ANGEL……）
-3             /span
-2         /div
-2         div class="Lyrics-translated" style="color:#2EA9DF"
-3             span lang="zh"
-4                 （ANGEL……）
-3             /span
-2         /div
-1     /div
-1     div style="clear:both"
-1     /div
-0 /div
+4 この
+6 混沌
+7 （
+6 こんとん
+7 ）
+4 とした
+6 令和
+7 （
+6 れいわ
+7 ）
+4 のインターネットを
+6 照
+7 （
+6 て
+7 ）
+4 らす
+6 一筋
+7 （
+6 ひとすじ
+7 ）
+4 の
+6 光
+7 （
+6 ひかり
+7 ）
+4 照亮这混沌的令和网络世界的一道光
+6 電子
+7 （
+6 でんし
+7 ）
+4 の
+6 海
+7 （
+6 うみ
+7 ）
+4 を
+6 漂
+7 （
+6 ただよ
+7 ）
+4 うオタクに
+6 笑顔
+7 （
+6 えがお
+7 ）
+4 を
+4 为在电子海洋中飘零的阿宅们带来笑容
+6 未来
+7 （
+6 みらい
+7 ）
+4 の
+6 平和
+7 （
+6 へいわ
+7 ）
+4 をお
+6 約束
+7 （
+6 やくそく
+7 ）
+4 　
+6 躁鬱
+7 （
+6 そううつ
+7 ）
+4 だけどまかせとけ
+4 向你许诺未来的和平 躁动不安但放心交给我
+4 インターネット・エンジェル　ただいま
+6 降臨
+7 （
+6 こうりん
+7 ）
+4 INTERNET·ANGEL 现在降临
+6 社会
+7 （
+6 しゃかい
+7 ）
+4 をやめろ　
+6 家族
+7 （
+6 かぞく
+7 ）
+4 をやめろ　
+6 人間
+7 （
+6 にんげん
+7 ）
+6 関係
+7 （
+6 かんけい
+7 ）
+4 をやめろ
+4 快点放弃社会 放弃亲人 放弃人际关系
+6 今
+7 （
+6 いま
+7 ）
+4 すぐ
+6 薄暗
+7 （
+6 うすぐら
+7 ）
+4 い
+6 部屋
+7 （
+6 へや
+7 ）
+4 で
+6 青白
+7 （
+6 あおじろ
+7 ）
+4 いライトを
+6 浴
+7 （
+6 あ
+7 ）
+4 びろ
+4 现在立刻在昏暗的房间里沐浴进苍白的显示器光中去
+6 大丈夫
+7 （
+6 だいじょうぶ
+7 ）
+4  こわかったこと 
+6 全部
+7 （
+6 ぜんぶ
+7 ）
+6 上書
+7 （
+6 うわが
+7 ）
+4 きするからね
+4 没关系的 令你恐惧的一切我会全部帮你改写
+6 現実
+7 （
+6 げんじつ
+7 ）
+4 よりも　Crazy for you
+4 比现实更加 Crazy for you
+4 おかしくなりそうなほど
+6 情報
+7 （
+6 じょうほう
+7 ）
+6 過多
+7 （
+6 かた
+7 ）
+4 のインターネット
+4 在这直逼人发疯的 信息爆炸的 Internet
+6 今
+7 （
+6 いま
+7 ）
+4 たすけてあげるよ　ダーリンダーリン
+4 现在就来帮助你哦 Darling Darling
+4 ウソはウソだと
+6 見
+7 （
+6 み
+7 ）
+6 抜
+7 （
+6 ぬ
+7 ）
+4 けるし　この
+6 愛
+7 （
+6 あい
+7 ）
+4 は
+6 暴走
+7 （
+6 ぼうそう
+7 ）
+4 しちゃうし
+4 看破谎言实为谎言 这份爱将要暴走
+6 壊
+7 （
+6 こわ
+7 ）
+4 れてしまうけど
+4 虽然会走向崩坏就是了
+6 考
+7 （
+6 かんが
+7 ）
+4 えなくていいんだよ
+4 不用想那么多啦
+4 もうすぐ
+6 楽
+7 （
+6 らく
+7 ）
+4 になるから
+4 因为马上就会轻松起来了
+6 脳内
+7 （
+6 のうない
+7 ）
+4 に
+6 乱反射
+7 （
+6 らんはんしゃ
+7 ）
+4 する Poison radio
+4 于脑内乱反射个不停的 Poison radio
+6 麻
+7 （
+6 ま
+7 ）
+6 薬
+7 （
+6 やく
+7 ）
+4 より
+6 甘
+7 （
+6 あま
+7 ）
+4 いよ
+4 比麻醉品更加甘甜哦
+4 いいね　よくないね　キミにとっては
+6 毒
+7 （
+6 どく
+7 ）
+4 だね
+4 赞 踩 对你来说是毒药呢
+4 いいね　よくないね　それでも
+6 飲
+7 （
+6 の
+7 ）
+4 むんだね
+4 赞 踩 即便如此也会吞下呢
+4 いいね　よくないね　
+6 二人
+7 （
+6 ふたり
+7 ）
+4 のヒミツだね
+4 赞 踩 是属于两个人的秘密呢
+4 わたしだけ
+6 見
+7 （
+6 み
+7 ）
+4 ててね
+4 要只看着我一个人哦
+4 まるで
+6 天使
+7 （
+6 てんし
+7 ）
+4 のように
+6 微笑
+7 （
+6 ほほえ
+7 ）
+4 む
+4 宛如天使般微笑
+6 強
+7 （
+6 つよ
+7 ）
+4 めの
+6 幻覚
+7 （
+6 げんかく
+7 ）
+4 　INTERNET GIRL
+4 强烈的幻觉 INTERNET GIRL
+4 そして
+6 悪魔
+7 （
+6 あくま
+7 ）
+4 みたいにささやく
+4 而又如同恶魔般低语
+4 アナタだけのデパス　NEEDY GIRL
+4 你专属的精神药物 NEEDY GIRL
+6 浅
+7 （
+6 あさ
+7 ）
+4 い
+6 眠
+7 （
+6 ねむ
+7 ）
+4 りと
+6 承認
+7 （
+6 しょうにん
+7 ）
+6 欲求
+7 （
+6 よっきゅう
+7 ）
+4 のオーバードーズ
+4 浅眠与渴望被承认的摄入过量
+6 脳天
+7 （
+6 のうてん
+7 ）
+6 直撃
+7 （
+6 ちょくげき
+7 ）
+4 するわたしたちだけの
+6 宗教
+7 （
+6 しゅうきょう
+7 ）
+4 とヒカリ
+4 五雷轰顶的只属于我们的宗教与光芒
+6 倫理
+7 （
+6 りんり
+7 ）
+4 より
+6 激
+7 （
+6 はげ
+7 ）
+4 しく
+6 生
+7 （
+6 い
+7 ）
+4 きた
+6 宇宙
+7 （
+6 うちゅう
+7 ）
+4 すら
+6 浸食
+7 （
+6 しんしょく
+7 ）
+4 する
+6 恋
+7 （
+6 こい
+7 ）
+4 比伦理还要激烈地活过 连宇宙都侵吞殆尽的恋情
+6 何度
+7 （
+6 なんど
+7 ）
+4 も
+6 送
+7 （
+6 おく
+7 ）
+4 られる
+6 毒
+7 （
+6 どく
+7 ）
+6 電波
+7 （
+6 でんぱ
+7 ）
+4 を
+6 優
+7 （
+6 やさ
+7 ）
+4 しさだけで
+6 包
+7 （
+6 つつ
+7 ）
+4 んで
+4 无数次发送给你的毒电波 要用十分的温柔去包裹它哦
+6 逆
+7 （
+6 さか
+7 ）
+4 さまのコンピューターと
+6 断片
+7 （
+6 だんぺん
+7 ）
+6 的
+7 （
+6 てき
+7 ）
+4 なカウンセリング
+4 上下颠倒的电脑与碎片式的辅导
+4 きらめく
+6 屋上
+7 （
+6 おくじょう
+7 ）
+4 で
+6 奏
+7 （
+6 かな
+7 ）
+4 でた
+6 夢見心地
+7 （
+6 ゆめみごこち
+7 ）
+4 の
+6 旋律
+7 （
+6 せんりつ
+7 ）
+4 在光辉闪耀的楼顶演奏过的 如梦似幻的旋律
+6 夕暮
+7 （
+6 ゆうぐ
+7 ）
+4 れ
+6 時
+7 （
+6 とき
+7 ）
+4 にさよならの
+6 練習
+7 （
+6 れんしゅう
+7 ）
+4 をして
+4 于黄昏时分练习说再见吧
+6 壊
+7 （
+6 こわ
+7 ）
+4 して
+6 愛
+7 （
+6 あい
+7 ）
+4 して
+6 許
+7 （
+6 ゆる
+7 ）
+4 して
+6 狂
+7 （
+6 くる
+7 ）
+4 って
+4 去破坏去爱去原谅去发狂
+6 狂
+7 （
+6 くる
+7 ）
+4 って
+6 狂
+7 （
+6 くる
+7 ）
+4 って
+6 甘
+7 （
+6 あま
+7 ）
+4 く
+6 狂
+7 （
+6 くる
+7 ）
+4 わせて
+4 发狂吧发狂吧甜蜜地将我弄坏
+4 ゆらぎ
+6 始
+7 （
+6 はじ
+7 ）
+4 める
+6 世界
+7 （
+6 せかい
+7 ）
+4 　
+6 曖昧
+7 （
+6 あいまい
+7 ）
+4 になる
+6 風景
+7 （
+6 ふうけい
+7 ）
+4 开始动摇的世界 变得暧昧的景色
+4 アナタだけが
+6 映
+7 （
+6 うつ
+7 ）
+4 っているメモリー
+4 只由你组成的回忆
+6 神様
+7 （
+6 かみさま
+7 ）
+4 なんていないよ
+4 神什么的不存在哟
+4 このふざけたインターネットは
+6 七色
+7 （
+6 なないろ
+7 ）
+4 のサイケデリック
+4 这荒诞的网络世界是彩虹色的幻雾
+4 SNSという
+6 瓶詰
+7 （
+6 びんづめ
+7 ）
+6 地獄
+7 （
+6 じごく
+7 ）
+4 に
+6 救済
+7 （
+6 きゅうさい
+7 ）
+4 を
+4 给名为SNS的瓶装地狱以救赎
+6 過去
+7 （
+6 かこ
+7 ）
+4 の
+6 歴史
+7 （
+6 れきし
+7 ）
+4 は
+6 見
+7 （
+6 み
+7 ）
+4 ないふり　アナタのためならすぐそばに
+4 过去的历史装作不去回望 为了你的话随时随地立即到达你身边
+4 インターネット・エンジェル　かわいく
+6 参上
+7 （
+6 さんじょう
+7 ）
+4 INTERNET·ANGEL 可爱参上
+4 まるで
+6 天使
+7 （
+6 てんし
+7 ）
+4 のように
+6 抱
+7 （
+6 だ
+7 ）
+4 きつく
+4 宛如天使般拥你入怀
+6 強
+7 （
+6 つよ
+7 ）
+4 めの
+6 幻覚
+7 （
+6 げんかく
+7 ）
+4 　INTERNET GIRL
+4 强劲的幻觉 INTERNET GIRL
+4 そして
+6 悪魔
+7 （
+6 あくま
+7 ）
+4 みたいにキスする
+4 而又如同恶魔般予以亲吻
+4 アナタだけの　
+6 2D GIRL
+7 （
+6 NEEDY GIRL
+7 ）
+4 独属于你的 
+6 2D GIRL
+7 （
+6 NEEDY GIRL
+7 ）
+4 （ANGEL……）
+4 （ANGEL……）
