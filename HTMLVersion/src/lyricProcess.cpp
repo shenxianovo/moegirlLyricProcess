@@ -1,15 +1,20 @@
+// @brief   Moegirl lyric process.
+// @author  shenxianovo
+// @github  https://github.com/shenxianovo/moegirlLyricProcess
+// @email   shenxianovo@gmail.com
+// last modified: 2024.4.14
+
 #include <iostream>
 #include <fstream>
+#include <filesystem>
 #include <set>
-#include <locale>
-#include <codecvt>
 
 /// @brief cut the HTML file to get the lyrics part.
 ///        inputFileName is the path of the HTML file.
 ///        the cutted part will be saved in ../temp/cuttedHTML.txt.
 /// @param inputFileName 
 void cut(const std::string& inputFileName) {
-  std::ifstream inputFile(inputFileName, std::ios::in);
+    std::ifstream inputFile(inputFileName, std::ios::in);
     std::ofstream outputFile("../temp/cuttedHTML.txt", std::ios::out);
 
     if (!inputFile) {
@@ -75,7 +80,10 @@ void lineFormation(const std::string& line) {
     }
 }
 
-bool isKana(const std::string& str) {
+/// @brief Judge if the first charactor of the string is a kana.
+/// @param str 
+/// @return true-is kana, false-not
+bool isKana(const std::string& line) {
     std::set<std::string> kana = {
         "あ", "い", "う", "え", "お", "か", "き", "く", "け", "こ", "さ", "し", "す", "せ", "そ", "た", "ち", "つ", "て", "と",
         "な", "に", "ぬ", "ね", "の", "は", "ひ", "ふ", "へ", "ほ", "ま", "み", "む", "め", "も", "や", "ゆ", "よ", "ら", "り",
@@ -87,51 +95,34 @@ bool isKana(const std::string& str) {
         "ボ", "パ", "ピ", "プ", "ペ", "ポ", "ャ", "ュ", "ョ", "ッ"
     };
 
-    // Get the first character of the string
-    std::string firstChar = str.substr(0, 3);
+    std::string firstChar = line.substr(0, 3);
 
-    // Check.
     return kana.find(firstChar) != kana.end();
 }
 
 
-void organize(const std::string& inputFileName) {
-    std::ifstream inputFile(inputFileName, std::ios::in);
+/// @brief organize the scattered lyrics and remove the hiarachy information.
+void organize() {
+    std::ifstream inputFile("../temp/formatedHTML.txt", std::ios::in);
     std::ofstream outputFile("../temp/organized.txt", std::ios::out);
+    bool nextIsJapanese = false;
 
-    // 中日歌词
-    if (hierachySet.size() == 1 || hierachySet.size() == 2) {
-        std::cout << "Plaese select the language you want:\n";
-        std::cout << "1. Chinese\n" << "2. Japanese\n" << "3. Both\n";
-        int choice;
-        std::cin >> choice;
-        if (choice == 1) {
-            for (std::string line; std::getline(inputFile, line, '\n'); ) {
-                std::getline(inputFile, line, '\n');
+    if (hierachySet.size() < 3) { // 无假名注音
+        for (std::string line; std::getline(inputFile, line, '\n'); ) {
                 outputFile << line.substr(line.find(" ") + 1) << "\n";
-            }
-        } else if (choice == 2) {
-            for (std::string line; std::getline(inputFile, line, '\n'); ) {
-                outputFile << line.substr(line.find(" ") + 1) << "\n";
-                std::getline(inputFile, line, '\n');
-            }
-        } else {
-            for (std::string line; std::getline(inputFile, line, '\n'); ) {
-                outputFile << line.substr(line.find(" ") + 1) << "\n";
-            }
         }
-    }
-    // 中日 + 注音
-    if (hierachySet.size() == 3) {
+    } else if (hierachySet.size() == 3) { // 有假名注音
         for (std::string line; std::getline(inputFile, line, '\n'); ) {
             int hierachy = std::stoi(line.substr(0, line.find(" ")));
             line.erase(0, line.find(" ") + 1);
             // 中文/假名
             if (hierachy == *hierachySet.begin()) {
                 // 日语歌词
-                if (isKana(line)) {
+                if (isKana(line) || nextIsJapanese || line.substr(0, 3) == "　") {
                     outputFile << line;
+                    nextIsJapanese = false;
                 } else { // 中文歌词
+                    nextIsJapanese = true;
                     outputFile << "\n" << line << "\n";
                 }
             } else if (hierachy == *hierachySet.rbegin()) { // 括号
@@ -141,14 +132,27 @@ void organize(const std::string& inputFileName) {
             }
         }
     }
-
 }
 
-void select() {
+/// @brief deltete kana notation.
+/// @param line 
+void deleteNotation(std::string& line) {
+    int left = line.find("（");
+    while (left != std::string::npos) {
+        int right = line.find("）", left);
+        line.erase(left, right - left + 3);
+        left = line.find("（", left);
+    }
+}
+
+/// @brief select the language you want and note if you need kana.
+/// @param the name of the song
+void select(std::string songName) {
     int language;
     int kana;
+    std::string savePath = "../lyric/" + songName + ".txt";
     std::ifstream inputFile("../temp/organized.txt", std::ios::in);
-    std::ofstream outputFile("../Lyric.txt", std::ios::out);
+    std::ofstream outputFile(savePath, std::ios::out);
 
     std::cout << "Plaese select the language you want:\n";
     std::cout << "1. Chinese\n" << "2. Japanese\n" << "3. Both\n";
@@ -156,40 +160,70 @@ void select() {
 
     if (language == 1) { // 中文
         for (std::string line; std::getline(inputFile, line, '\n'); ) {
-            std::getline(inputFile, line, '\n');
+            std::getline(inputFile, line, '\n'); // 去掉日语
             outputFile << line << "\n";
         }
-    } else if (language == 2) {
-        std::cout << "Need kana?\n" << "1. Yes\n" << "2. No\n";
-        std::cin >> kana;
-        
-        if (kana == 1) {
-            for (std::string line; std::getline(inputFile, line, '\n'); ) {
-                outputFile << line << "\n";
-                std::getline(inputFile, line, '\n');
-            }
-        } else { // 不带假名
-            for (std::string line; std::getline(inputFile, line, '\n'); ) {
-                // 删去（）及其内容
-                int left = line.find("（");
-                while (left != std::string::npos) {
-                    int right = line.find("）", left);
-                    line.erase(left, right - left + 3);
-                    left = line.find("（", left);
+    } else if (language == 2) { // 日语
+        if (hierachySet.size() >= 3) { // 有假名标注
+            std::cout << "Need kana?\n" << "1. Yes\n" << "2. No\n";
+            std::cin >> kana;
+            
+            if (kana == 1) {
+                for (std::string line; std::getline(inputFile, line, '\n'); ) {
+                    outputFile << line << "\n";
+                    std::getline(inputFile, line, '\n'); // 去掉中文
                 }
+            } else { // 不带假名
+                for (std::string line; std::getline(inputFile, line, '\n'); ) {
+                    deleteNotation(line);
+                    outputFile << line << "\n";
+                    std::getline(inputFile, line, '\n'); // 去掉中文
+                }
+            }
+        } else { // 无假名标注
+            for (std::string line; std::getline(inputFile, line, '\n'); ) {
                 outputFile << line << "\n";
+                std::getline(inputFile, line, '\n'); // 去掉中文
             }
         }
-    } else {
-        for (std::string line; std::getline(inputFile, line, '\n'); ) {
-            outputFile << line << "\n";
+    } else { // 中日
+        if (hierachySet.size() >= 3) { // 有假名标注
+            std::cout << "Need kana?\n" << "1. Yes\n" << "2. No\n";
+            std::cin >> kana;
+            
+            if (kana == 1) { // 带假名
+                for (std::string line; std::getline(inputFile, line, '\n'); ) {
+                    outputFile << line << "\n";
+                }
+            } else { // 不带假名
+                for (std::string line; std::getline(inputFile, line, '\n'); ) {
+                    deleteNotation(line);
+                    outputFile << line << "\n";
+                }
+            }
+        } else { // 无假名标注
+            for (std::string line; std::getline(inputFile, line, '\n'); ) {
+                outputFile << line << "\n";
+            }
         }
     }
 }
 
 int main() {
 
+    // 创建必要目录
+    std::filesystem::create_directory("../temp");
+    std::filesystem::create_directory("../lyric");
+
+    // std::string fileName = "../HTML/梅菲斯特 - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/空箱 - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/栞 - 萌娘百科 万物皆可萌的百科全书.html";
     std::string fileName = "../HTML/INTERNET OVERDOSE - 萌娘百科 万物皆可萌的百科全书.html";
+
+    int nameLeft = fileName.find_last_of("\\/");
+    int nameRight = fileName.find("-");
+    std::string name = fileName.substr(nameLeft + 1, nameRight - nameLeft - 2);
+    std::cout << "Name: " << name << "\n";
 
     cut(fileName);
 
@@ -198,19 +232,9 @@ int main() {
     std::getline(inputFile, line, '\n');
     lineFormation(line);
 
-    organize("../temp/formatedHTML.txt");
+    organize();
 
-    if (hierachySet.size() == 1 || hierachySet.size() == 2 ) {
-        std::ifstream inputFile("../temp/organized.txt", std::ios::in);
-        std::ofstream outputFile("../Lyric.txt", std::ios::out);
-        for (std::string line; std::getline(inputFile, line, '\n'); ) {
-            outputFile << line << "\n";
-        }
-    }
-
-    if (hierachySet.size() >= 3) {
-        select();
-    } 
+    select(name);
 
     std::cout << "Done!\n" << "Lyric saved in ../temp/Lyric.txt\n" << "Please save it to somewhere else.\n";
 
