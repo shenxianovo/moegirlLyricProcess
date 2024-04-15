@@ -1,4 +1,5 @@
 // @brief   Moegirl lyric process.
+// @version 0.2
 // @author  shenxianovo
 // @github  https://github.com/shenxianovo/moegirlLyricProcess
 // @email   shenxianovo@gmail.com
