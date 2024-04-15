@@ -2,7 +2,7 @@
 // @author  shenxianovo
 // @github  https://github.com/shenxianovo/moegirlLyricProcess
 // @email   shenxianovo@gmail.com
-// last modified: 2024.4.14
+// last modified: UTC+8 2024/4/15 22:12
 
 #include <iostream>
 #include <fstream>
@@ -95,9 +95,27 @@ bool isKana(const std::string& line) {
         "ボ", "パ", "ピ", "プ", "ペ", "ポ", "ャ", "ュ", "ョ", "ッ"
     };
 
+    int start = 0;
+    for (start; start < line.size(); start+=3) {
+        if (kana.find(line.substr(start, 3)) != kana.end()) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+/// @brief Judge if the first charactor of the string is a punctuation.
+/// @param line 
+/// @return True-is punctuation, False-not.
+bool isPunctuation(const std::string& line) {
+    std::set<std::string> punctuation = {
+        "！"
+    };
+
     std::string firstChar = line.substr(0, 3);
 
-    return kana.find(firstChar) != kana.end();
+    return punctuation.find(firstChar) != punctuation.end();
 }
 
 
@@ -105,7 +123,7 @@ bool isKana(const std::string& line) {
 void organize() {
     std::ifstream inputFile("../temp/formatedHTML.txt", std::ios::in);
     std::ofstream outputFile("../temp/organized.txt", std::ios::out);
-    bool nextIsJapanese = false;
+    bool chinese = false;
 
     if (hierachySet.size() < 3) { // 无假名注音
         for (std::string line; std::getline(inputFile, line, '\n'); ) {
@@ -118,17 +136,54 @@ void organize() {
             // 中文/假名
             if (hierachy == *hierachySet.begin()) {
                 // 日语歌词
-                if (isKana(line) || nextIsJapanese || line.substr(0, 3) == "　") {
+                if (isKana(line) ||
+                    isPunctuation(line) || // 针对日语歌词片段全是标点的情况(INTERNET YAMERO: ！！！)
+                    chinese || 
+                    line.substr(0, 3) == "　" || // 歌词中间的空格 
+                    line.substr(0, 1) == " " // 歌词开头的空格(为啥开头会有空格啊喂) 
+                    ) {
                     outputFile << line;
-                    nextIsJapanese = false;
+                    chinese = false;
                 } else { // 中文歌词
-                    nextIsJapanese = true;
+                    chinese = true;
                     outputFile << "\n" << line << "\n";
                 }
             } else if (hierachy == *hierachySet.rbegin()) { // 括号
-                outputFile << line.substr(0, line.find("\n"));
+                if (isKana(line)) { // 针对没有括号的假名标注
+                    outputFile << "（" << line << "）";
+                } else { // 括号
+                    outputFile << line.substr(0, line.find("\n"));
+                }
             } else { // 日语汉字 + 注音
                 outputFile << line;
+            }
+        }
+    } else if (hierachySet.size() == 5) { // 中日+假名注音+自带罗马音 
+                                          // 我的想法是反正有假名，罗马音就不要了。要加的话后面再加个假名转罗马音的功能
+        for (std::string line; std::getline(inputFile, line, '\n'); ) {
+            std::set<int>::iterator it = hierachySet.begin();
+            it++; it++; // 第三个层级，即罗马音左括号
+            static bool breakSign = false; // 分段符 鬼知道为啥要用两行括号分段
+            int hierachy = std::stoi(line.substr(0, line.find(" ")));
+            line.erase(0, line.find(" ") + 1);
+            if (hierachy == *hierachySet.begin()) { // 中文
+                outputFile << "\n" << line << "\n";
+                breakSign = true;
+            } else if (hierachy == *it) { // 罗马音左括号or罗马音or分段标志左括号
+                if (breakSign) { // 分段标志左括号
+                    std::getline(inputFile, line, '\n'); // 读掉分段标志右括号
+                } else if (line.find("（") != std::string::npos) { // 罗马音
+                    std::getline(inputFile, line, '\n');
+                    std::getline(inputFile, line, '\n'); // 再读两次把罗马音和罗马音右括号读掉
+
+                } else { // 假名
+                    outputFile << line;
+                }
+                breakSign = false;
+            } else { // 其他
+                outputFile << line;
+
+                breakSign = false;
             }
         }
     }
@@ -150,6 +205,7 @@ void deleteNotation(std::string& line) {
 void select(std::string songName) {
     int language;
     int kana;
+    int romaji;
     std::string savePath = "../lyric/" + songName + ".txt";
     std::ifstream inputFile("../temp/organized.txt", std::ios::in);
     std::ofstream outputFile(savePath, std::ios::out);
@@ -164,7 +220,12 @@ void select(std::string songName) {
             outputFile << line << "\n";
         }
     } else if (language == 2) { // 日语
-        if (hierachySet.size() >= 3) { // 有假名标注
+        if (hierachySet.size() < 3) { // 无假名标注
+            for (std::string line; std::getline(inputFile, line, '\n'); ) {
+                outputFile << line << "\n";
+                std::getline(inputFile, line, '\n'); // 去掉中文
+            }
+        } else if (hierachySet.size() >= 3) { // 有假名标注
             std::cout << "Need kana?\n" << "1. Yes\n" << "2. No\n";
             std::cin >> kana;
             
@@ -180,14 +241,13 @@ void select(std::string songName) {
                     std::getline(inputFile, line, '\n'); // 去掉中文
                 }
             }
-        } else { // 无假名标注
-            for (std::string line; std::getline(inputFile, line, '\n'); ) {
-                outputFile << line << "\n";
-                std::getline(inputFile, line, '\n'); // 去掉中文
-            }
         }
     } else { // 中日
-        if (hierachySet.size() >= 3) { // 有假名标注
+        if (hierachySet.size() < 3) { // 无假名标注
+            for (std::string line; std::getline(inputFile, line, '\n'); ) {
+                outputFile << line << "\n";
+            }
+        } else if (hierachySet.size() == 3) { // 有假名标注
             std::cout << "Need kana?\n" << "1. Yes\n" << "2. No\n";
             std::cin >> kana;
             
@@ -201,10 +261,8 @@ void select(std::string songName) {
                     outputFile << line << "\n";
                 }
             }
-        } else { // 无假名标注
-            for (std::string line; std::getline(inputFile, line, '\n'); ) {
-                outputFile << line << "\n";
-            }
+        } else if (hierachySet.size() == 5) { // 假名+罗马音标注
+            
         }
     }
 }
@@ -215,10 +273,15 @@ int main() {
     std::filesystem::create_directory("../temp");
     std::filesystem::create_directory("../lyric");
 
+    std::string fileName = "../HTML/千本樱 - 萌娘百科 万物皆可萌的百科全书.html";
+
     // std::string fileName = "../HTML/梅菲斯特 - 萌娘百科 万物皆可萌的百科全书.html";
     // std::string fileName = "../HTML/空箱 - 萌娘百科 万物皆可萌的百科全书.html";
     // std::string fileName = "../HTML/栞 - 萌娘百科 万物皆可萌的百科全书.html";
-    std::string fileName = "../HTML/INTERNET OVERDOSE - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/INTERNET OVERDOSE - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/INTERNET YAMERO - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/Melt - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/吉原哀歌 - 萌娘百科 万物皆可萌的百科全书.html";
 
     int nameLeft = fileName.find_last_of("\\/");
     int nameRight = fileName.find("-");
