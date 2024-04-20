@@ -159,6 +159,24 @@ void organize() {
                 outputFile << line;
             }
         }
+    } else if (hierachySet.size() == 4) { // 有假名注音 但在行尾一坨（（
+        for (std::string line; std::getline(inputFile, line, '\n'); ) {
+            int hierachy = std::stoi(line.substr(0, line.find(" ")));
+            std::set<int>::iterator it = hierachySet.begin();;
+            it++; it++; // 汉字+汉字注音
+            line.erase(0, line.find(" ") + 1);
+            if (hierachy == *hierachySet.begin()) { // 中文
+                outputFile << "\n" << line << "\n";
+            } else if (hierachy == *hierachySet.rbegin() || hierachy == *it) { // 末尾注音
+                if (isKana(line)) { // 注音 我删了......
+                    // outputFile << "|" <<  line;
+                } else {
+                    outputFile << line;
+                }
+            } else {
+                outputFile << line;
+            }
+        }
     } else if (hierachySet.size() == 5) { // 中日+假名注音+自带罗马音 
                                           // 我的想法是反正有假名，罗马音就不要了。要加的话后面再加个假名转罗马音的功能
         for (std::string line; std::getline(inputFile, line, '\n'); ) {
@@ -274,10 +292,15 @@ int main() {
     std::filesystem::create_directory("../temp");
     std::filesystem::create_directory("../lyric");
 
-    std::string fileName = "../HTML/千本樱 - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/千本樱 - 萌娘百科 万物皆可萌的百科全书.html";
 
     // std::string fileName = "../HTML/梅菲斯特 - 萌娘百科 万物皆可萌的百科全书.html";
     // std::string fileName = "../HTML/空箱 - 萌娘百科 万物皆可萌的百科全书.html";
+    std::string fileName = "../HTML/皆无其名 - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/熙熙攘攘、我们的城市 - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/Avid - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/受伤伤害痛苦难受 - 萌娘百科 万物皆可萌的百科全书.html";
+    // std::string fileName = "../HTML/虚伪之理 - 萌娘百科 万物皆可萌的百科全书.html";
     // std::string fileName = "../HTML/栞 - 萌娘百科 万物皆可萌的百科全书.html";
     // std::string fileName = "../HTML/INTERNET OVERDOSE - 萌娘百科 万物皆可萌的百科全书.html";
     // std::string fileName = "../HTML/INTERNET YAMERO - 萌娘百科 万物皆可萌的百科全书.html";
